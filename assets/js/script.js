@@ -18,25 +18,17 @@ let result;
 for (button of buttons) {
 
     button.addEventListener("click", function() {
-        
-        let playerButton = this.getAttribute("data-choice");
-        playGame(playerButton);
+
         item = this.textContent
         playOpt.textContent = `${item}`;
+
+        computerTurn();
         cpuOpt.textContent = `${cpuItem}`;
+
         result = checkWinner();
         resultMsg.textContent = `${result}`;
 
     })
-};
-
-/**
- * Main game code, using the data choice valuble taken from the button clicked by the user
- */
-function playGame(playerButton) {
-
-    let cpuItem = computerTurn();
-
 };
 
 function computerTurn() {
