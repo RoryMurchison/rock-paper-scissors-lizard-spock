@@ -24,6 +24,8 @@ for (button of buttons) {
         item = this.textContent
         playOpt.textContent = `${item}`;
         cpuOpt.textContent = `${cpuItem}`;
+        result = checkWinner();
+        resultMsg.textContent = `${result}`;
 
     })
 };
@@ -61,7 +63,29 @@ function computerTurn() {
 
 };
 
+/**
+ * A function to determine the outcome of the game
+ */
 function checkWinner() {
+
+    if(cpuItem == item){
+        return "Game Draw!";
+    }
+    else if(cpuItem == "Rock"){
+        return (item == "Spock" || item == "Paper") ? "You Win!" : "You Lose!";
+    }
+    else if(cpuItem == "Paper"){
+        return (item == "Scissors" || item == "Lizard") ? "You Win!" : "You Lose!";
+    }
+    else if(cpuItem == "Scissors"){
+        return (item == "Rock" || item == "Spock") ? "You Win!" : "You Lose!";
+    }
+    else if(cpuItem == "Lizard"){
+        return (item == "Rock" || item == "Scissors") ? "You Win!" : "You Lose!";
+    }
+    else if(cpuItem == "Spock"){
+        return (item == "Paper" || item == "Lizard") ? "You Win!" : "You Lose!";
+    }
 
 };
 
