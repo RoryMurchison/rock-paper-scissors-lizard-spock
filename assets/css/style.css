@@ -64,3 +64,18 @@ footer > h2 {
     width: 40%;
     background-color: red;
 }
+
+#result-message {
+    height: 20px;
+    padding: 20px 0px;
+
+}
+
+#score-area {
+    width: 80%;
+
+}
+
+.scores {
+    display: inline-block;
+}
