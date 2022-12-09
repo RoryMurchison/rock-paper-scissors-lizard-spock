@@ -18,11 +18,10 @@
         <h1 id="page-title">Rock Paper Scissors Lizard Spock</h1>
     </header>
         
-    <section>
-        
-        <div id="game-area">
+    <section id="game-area">
         
             <div id="choice-area">
+                <br>
                 <h3>Pick which option you want to throw:</h3>
                 <button aria-label="Rock" class="choice-button">Rock<i class="fa-solid fa-hand-back-fist"></i></button>
                 <button aria-label="Paper" class="choice-button">Paper<i class="fa-solid fa-hand"></i></button>
@@ -31,18 +30,22 @@
                 <button aria-label="Spock" class="choice-button">Spock<i class="fa-solid fa-hand-spock"></i></button>
             </div>
     
-            <div id="player-choice">
-                <h4 >You Chose:</h4>
-                <h3 id="player-option"></h3>
-            </div>
-            <div id="computer-choice">
-                <h4>Computer Chose:</h4>
-                <h3 id="computer-option"></h3>
-            </div>
+            <div id="show-choice">
+                <div id="player-choice">
+                    <h4 >You Chose:</h4>
+                    <br>
+                    <h3 id="player-option"></h3>
+                    <br>
+                </div>
+                <div id="computer-choice">
+                    <h4>Computer Chose:</h4>
+                    <br>
+                    <h3 id="computer-option"></h3>
+                    <br>
+                </div>
+            </div>    
     
             <div id="result-message"></div>
-    
-        </div>
     
         <div id="score-area">
             <p class="scores">Games Won: <span id="games-won">0</span></p>

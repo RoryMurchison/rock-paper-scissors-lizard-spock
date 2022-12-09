@@ -53,6 +53,10 @@ footer > h2 {
     margin-bottom: 25px;
 }
 
+#choice {
+    height: 200px;
+}
+
 #player-choice {
     float: left;
     width: 40%;
