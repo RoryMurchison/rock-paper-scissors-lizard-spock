@@ -28,11 +28,21 @@ for (button of buttons) {
         result = checkWinner();
         resultMsg.textContent = `${result}`;
 
-        if(result == "You Win!") ? playerWin() : playerLose();
+       if (result == "You Win!") {
+        playerWin();
+       } else {
+        playerLose();
+       }
+         
 
     })
 };
 
+/**
+ * This function simulates the computer picking 
+ * a random value of either Rock, Paper, Scissors,
+ * Lizard or Spock
+ */
 function computerTurn() {
 
     let computerNumber = Math.floor(Math.random() * 5);
@@ -83,10 +93,22 @@ function checkWinner() {
 
 };
 
+/**
+ * Adds 1 to the Games won tally
+ */
 function playerWin() {
+
+    let oldScore = parseInt(document.getElementById("games-won").innerText);
+    document.getElementById("games-won").innerText = ++oldScore;
 
 };
 
+/**
+ * Adds 1 to the games lost tally
+ */
 function playerLose() {
+
+    let oldScore= parseInt(document.getElementById("games-lost").innerText);
+    document.getElementById("games-lost").innerText = ++oldScore;
 
 };
