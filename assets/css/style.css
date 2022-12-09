@@ -108,3 +108,22 @@ footer > h2 {
 #games-lost {
     color: red;
 }
+
+/* Media Queries */
+/* For screens less than 500px wide */
+
+@media screen and (max-width: 500px) {
+  header > h1 {
+        font-size: 2rem;
+    }
+
+    .scores {
+        font-size: 1rem;
+    }
+
+    .choice-button {
+        width: 25%;
+        padding: 3px;
+        font-size: 0.8rem;
+    }
+}
