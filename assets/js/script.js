@@ -5,21 +5,18 @@ const buttons = document.getElementsByClassName("choice-button");
 const resultMsg = document.getElementById("result-message");
 const playOpt = document.getElementById("player-option");
 const cpuOpt = document.getElementById("computer-option");
-let wins = document.getElementById("games-won");
-let lost = document.getElementById("games-lost");
 let item;
 let cpuItem;
 let result;
 
-
 /**
  * Adds an event listener looking for any buttons being clicked
  */
-for (button of buttons) {
+for (let button of buttons) {
 
     button.addEventListener("click", function() {
 
-        item = this.textContent
+        item = this.textContent;
         playOpt.textContent = `${item}`;
 
         computerTurn();
@@ -37,10 +34,8 @@ for (button of buttons) {
        else {
         playerDraw();
        }
-         
-
-    })
-};
+    });
+}
 
 /**
  * This function simulates the computer picking 
@@ -68,8 +63,7 @@ function computerTurn() {
             cpuItem = "Spock";
             break; 
     }
-
-};
+}
 
 /**
  * A function to determine the outcome of the game
@@ -94,8 +88,7 @@ function checkWinner() {
     else if(cpuItem == "Spock"){
         return (item == "Paper" || item == "Lizard") ? "You Win!" : "You Lose!";
     }
-
-};
+}
 
 /**
  * Adds 1 to the Games won tally
@@ -105,7 +98,7 @@ function playerWin() {
     let oldScore = parseInt(document.getElementById("games-won").innerText);
     document.getElementById("games-won").innerText = ++oldScore;
 
-};
+}
 
 /**
  * Adds 1 to the games drawn tally
@@ -115,7 +108,7 @@ function playerDraw() {
     let oldScore= parseInt(document.getElementById("games-drawn").innerText);
     document.getElementById("games-drawn").innerText = ++oldScore;
 
-};
+}
 
 /**
  * Adds 1 to the games lost tally
@@ -125,4 +118,4 @@ function playerLose() {
     let oldScore= parseInt(document.getElementById("games-lost").innerText);
     document.getElementById("games-lost").innerText = ++oldScore;
 
-};
+}
