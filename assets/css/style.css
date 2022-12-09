@@ -79,3 +79,15 @@ footer > h2 {
 .scores {
     display: inline-block;
 }
+
+#games-won {
+    color: green;
+}
+
+#games-drawn {
+    color: blue;
+}
+
+#games-lost {
+    color: red;
+}
