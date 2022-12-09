@@ -1,3 +1,14 @@
+/* Main page css */
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+}
+
+/*Header and footer css*/
 header {
     text-align: center;
     height: 70px;
@@ -9,4 +20,12 @@ header > h1 {
     font-size: 60px;
     font-family: 'Bebas Neue', cursive;
     color: #fff;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
