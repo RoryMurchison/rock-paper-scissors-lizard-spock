@@ -75,13 +75,10 @@ footer > h2 {
     height: 20px;
     padding: 20px 0px;
     font-size: 2rem;
-
 }
 
 #score-area {
-    width: 80%;
     text-align: center;
-
 }
 
 .scores {
