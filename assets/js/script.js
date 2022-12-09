@@ -28,6 +28,8 @@ for (button of buttons) {
         result = checkWinner();
         resultMsg.textContent = `${result}`;
 
+        if(result == "You Win!") ? playerWin() : playerLose();
+
     })
 };
 
