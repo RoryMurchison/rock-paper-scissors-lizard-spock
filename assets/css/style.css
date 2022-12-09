@@ -6,6 +6,7 @@ html {
 
 body {
     margin: 0;
+    background-color: rgba(0, 0, 255, 0.15);
 }
 
 /*Header and footer css*/
@@ -44,6 +45,7 @@ footer > h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
 }
 
 .choice-button {
@@ -78,11 +80,13 @@ footer > h2 {
 
 #score-area {
     width: 80%;
+    text-align: center;
 
 }
 
 .scores {
     display: inline-block;
+    font-size: 1.5rem;
 }
 
 #games-won {
