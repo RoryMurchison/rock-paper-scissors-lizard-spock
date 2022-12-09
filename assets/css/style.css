@@ -35,7 +35,6 @@ footer {
 
 footer > h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 42px;
     margin: 0;
 }
 
@@ -45,4 +44,10 @@ footer > h2 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+.choice-button {
+    display: inline-block;
+    width: 15%;
+    height: 40px;
 }
