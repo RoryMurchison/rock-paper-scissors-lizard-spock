@@ -30,8 +30,12 @@ for (button of buttons) {
 
        if (result == "You Win!") {
         playerWin();
-       } else {
+       }
+       else if (result == "You Lose!") {
         playerLose();
+       }
+       else {
+        playerDraw();
        }
          
 
@@ -73,7 +77,7 @@ function computerTurn() {
 function checkWinner() {
 
     if(cpuItem == item){
-        return "Game Draw!";
+        return "Game Drawn!";
     }
     else if(cpuItem == "Rock"){
         return (item == "Spock" || item == "Paper") ? "You Win!" : "You Lose!";
@@ -100,6 +104,16 @@ function playerWin() {
 
     let oldScore = parseInt(document.getElementById("games-won").innerText);
     document.getElementById("games-won").innerText = ++oldScore;
+
+};
+
+/**
+ * Adds 1 to the games drawn tally
+ */
+function playerDraw() {
+
+    let oldScore= parseInt(document.getElementById("games-drawn").innerText);
+    document.getElementById("games-drawn").innerText = ++oldScore;
 
 };
 
