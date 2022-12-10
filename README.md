@@ -24,3 +24,11 @@ This simple game is targeted towards all ages, who may want a random decison mad
 
 ![Instruction to choose one of the 5 buttons for their turn](/assets/images/rpsls-buttons.png)
 
+    - Game Results
+      
+      - Once a button has been clicked, the user can see their chosen move in the green box to the left.
+      - The random move chosen by the computer is then displayed in the red box to the right.
+      -In the centre of this part of the screen, the result of the round is displayed letting the player know if they won, lost or if the game was drawn.
+
+![Image shows players choice, computers choice and the result](/assets/images/rpsls-result.png)
+
