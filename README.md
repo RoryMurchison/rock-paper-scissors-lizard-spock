@@ -39,3 +39,10 @@ This simple game is targeted towards all ages, who may want a random decison mad
       - The win number is in green to match the area where their choice is displayed whilst the loss number is red to match the computers! Draws are in blue as a neutral color.
 
 ![The game keeps track of the number of wins, losses and draws](/assets/images/rpsls-scores.png)
+
+    - Footer
+      
+      - The footer rests at the bottom of the page and contains more detailed rules on the game, with every outcome listed.
+      - This list is also in the same order as the title to make searching easier.
+
+![Image displays the page footer and rules of the game, detailing which item beats which](/assets/images/rpsls-rules.png)
