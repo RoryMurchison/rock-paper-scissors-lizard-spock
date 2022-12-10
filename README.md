@@ -32,3 +32,10 @@ This simple game is targeted towards all ages, who may want a random decison mad
 
 ![Image shows players choice, computers choice and the result](/assets/images/rpsls-result.png)
 
+    - Keeping Score
+      
+      - For those keen on playing the game for multiple rounds, the game score is automatically tracked.
+      - Users are able to see how many rounds have been won, drawn and lost whilst playing.
+      - The win number is in green to match the area where their choice is displayed whilst the loss number is red to match the computers! Draws are in blue as a neutral color.
+
+![The game keeps track of the number of wins, losses and draws](/assets/images/rpsls-scores.png)
