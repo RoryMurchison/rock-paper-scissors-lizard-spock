@@ -95,7 +95,7 @@ This simple game is targeted towards all ages, who may want a random decison mad
         - The pages tab was then clicked on the side menu.
         - The main branch was then selected and refreshed to provide a link.
     
-The live link to the website can be found at -
+The live link to the website can be found at - https://rorymurchison.github.io/rock-paper-scissors-lizard-spock/
 
 ## Credits 
 
