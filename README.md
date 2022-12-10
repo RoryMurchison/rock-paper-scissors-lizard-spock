@@ -84,3 +84,10 @@ This simple game is targeted towards all ages, who may want a random decison mad
         - The main branch was then selected and refreshed to provide a link.
     
 The live link to the website can be found at -
+
+## Credits 
+
+### Content
+
+    - The icons used throughout the project were taken from [Font Awesome](https://fontawesome.com/icons)
+    - The fonts used throughout the project were taken from [Google Fonts](https://fonts.google.com/)
