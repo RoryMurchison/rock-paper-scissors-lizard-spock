@@ -46,3 +46,8 @@ This simple game is targeted towards all ages, who may want a random decison mad
       - This list is also in the same order as the title to make searching easier.
 
 ![Image displays the page footer and rules of the game, detailing which item beats which](/assets/images/rpsls-rules.png)
+
+### Features Left to Implement
+
+    - One feature to implement in the future would be to add a feature where you could play first to a certain score.
+    - Another feature would be to add a reset score button so they could play from 0 again without refreshing the page.
