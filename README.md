@@ -16,3 +16,11 @@ This simple game is targeted towards all ages, who may want a random decison mad
 
 ![image displaying header and game title](/assets/images/rpsls-header.png)
 
+    - Game options
+      
+      - This section provides a clear instruction to select one of the provided options, corresponding to what element they want to choose for their turn in the game.
+      - The buttons are clearly labelled and in the same order as the title to avoid confusion.
+      - Furthermore, each button has a small image to provide a visual guide to how it would be thrown in real life.
+
+![Instruction to choose one of the 5 buttons for their turn](/assets/images/rpsls-buttons.png)
+
