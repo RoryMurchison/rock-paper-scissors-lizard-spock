@@ -76,6 +76,18 @@ This simple game is targeted towards all ages, who may want a random decison mad
 
       - No errors returned when using the JSHint JavaScript Validator   
 
+
+## Bugs 
+
+### Solved Bugs
+
+    - During initial testing, the games lost count wasn't updating whilst the games won count was.
+    - I later discovered this was because I'd copied the code across and switched the variables but had added an extra letter in one of them causing the code not to run.
+
+### Unfixed Bugs
+
+    - No bugs are left unsolved that I am aware of.
+
 ## Deployment
 
     - My website was deployed to GitHub pages.
