@@ -51,3 +51,13 @@ This simple game is targeted towards all ages, who may want a random decison mad
 
     - One feature to implement in the future would be to add a feature where you could play first to a certain score.
     - Another feature would be to add a reset score button so they could play from 0 again without refreshing the page.
+
+## Testing
+
+    - The responsiveness of the site has been tested and it works at multiple screen widths to a minimum of 380px.
+    - The game was tested in both chrome and safari and worked well within each browser.
+    - Every outcome has been checked to ensure the correct result is returned for every combination.
+    - All fonts and colors were checked to ensure the page was accessible, readable and easy to understand.
+    - This was confirmed by the lighthouse report generated in devtools.
+
+![Lighthouse genereated scores for Rock Paper Scissors Lizard Spock](/assets/images/rpsls-lighthouse.png)
