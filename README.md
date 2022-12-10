@@ -54,10 +54,24 @@ This simple game is targeted towards all ages, who may want a random decison mad
 
 ## Testing
 
-    - The responsiveness of the site has been tested and it works at multiple screen widths to a minimum of 380px.
+    - The responsiveness of the site has been tested using the devtools device toolbar and it works at multiple screen widths to a minimum of 380px.
     - The game was tested in both chrome and safari and worked well within each browser.
     - Every outcome has been checked to ensure the correct result is returned for every combination.
     - All fonts and colors were checked to ensure the page was accessible, readable and easy to understand.
     - This was confirmed by the lighthouse report generated in devtools.
 
 ![Lighthouse genereated scores for Rock Paper Scissors Lizard Spock](/assets/images/rpsls-lighthouse.png)
+
+## Validator Testing
+
+    - HTML
+
+      - No errors returned when using the official W3C Validator
+
+    - CSS
+
+      - No errors returned when using the official W3C Validator  
+
+    - JavaScript
+
+      - No errors returned when using the JSHint JavaScript Validator   
